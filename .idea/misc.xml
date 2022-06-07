@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/1-Learn/1-Nam3/PhatTrienUngDungDiDong/1-Project/FinalProjects/SalesManager/app/src/main/res/drawable/appnamegradient.xml" value="0.1" />
+        <entry key="..\:/1-Learn/1-Nam3/PhatTrienUngDungDiDong/1-Project/FinalProjects/SalesManager/app/src/main/res/drawable/cart_24.xml" value="0.13333333333333333" />
+        <entry key="..\:/1-Learn/1-Nam3/PhatTrienUngDungDiDong/1-Project/FinalProjects/SalesManager/app/src/main/res/drawable/food_24.xml" value="0.1" />
+        <entry key="..\:/1-Learn/1-Nam3/PhatTrienUngDungDiDong/1-Project/FinalProjects/SalesManager/app/src/main/res/drawable/logout_24.xml" value="0.12864583333333332" />
+        <entry key="..\:/1-Learn/1-Nam3/PhatTrienUngDungDiDong/1-Project/FinalProjects/SalesManager/app/src/main/res/drawable/menu_24.xml" value="0.1" />
+        <entry key="..\:/1-Learn/1-Nam3/PhatTrienUngDungDiDong/1-Project/FinalProjects/SalesManager/app/src/main/res/drawable/menu_item_image.xml" value="0.1" />
+        <entry key="..\:/1-Learn/1-Nam3/PhatTrienUngDungDiDong/1-Project/FinalProjects/SalesManager/app/src/main/res/drawable/z_cart_frame_5dp.xml" value="0.12864583333333332" />
+        <entry key="..\:/1-Learn/1-Nam3/PhatTrienUngDungDiDong/1-Project/FinalProjects/SalesManager/app/src/main/res/drawable/z_cart_item_5dp.xml" value="0.264" />
+        <entry key="..\:/1-Learn/1-Nam3/PhatTrienUngDungDiDong/1-Project/FinalProjects/SalesManager/app/src/main/res/drawable/z_corner_5dp.xml" value="0.25833333333333336" />
+        <entry key="..\:/1-Learn/1-Nam3/PhatTrienUngDungDiDong/1-Project/FinalProjects/SalesManager/app/src/main/res/drawable/z_corner_gradient.xml" value="0.1" />
+        <entry key="..\:/1-Learn/1-Nam3/PhatTrienUngDungDiDong/1-Project/FinalProjects/SalesManager/app/src/main/res/drawable/z_corner_whiteblackwhite_5dp.xml" value="0.14444444444444443" />
+        <entry key="..\:/1-Learn/1-Nam3/PhatTrienUngDungDiDong/1-Project/FinalProjects/SalesManager/app/src/main/res/drawable/z_corner_whiteblackwhite_5dp_foreground.xml" value="0.14444444444444443" />
+        <entry key="..\:/1-Learn/1-Nam3/PhatTrienUngDungDiDong/1-Project/FinalProjects/SalesManager/app/src/main/res/drawable/z_corner_whiteblackwhite_5dp_selector.xml" value="0.25833333333333336" />
+        <entry key="..\:/1-Learn/1-Nam3/PhatTrienUngDungDiDong/1-Project/FinalProjects/SalesManager/app/src/main/res/drawable/z_gradient_corner_5dp.xml" value="0.25833333333333336" />
+        <entry key="..\:/1-Learn/1-Nam3/PhatTrienUngDungDiDong/1-Project/FinalProjects/SalesManager/app/src/main/res/drawable/z_gradient_corner_opposite_5dp.xml" value="0.12864583333333332" />
+        <entry key="..\:/1-Learn/1-Nam3/PhatTrienUngDungDiDong/1-Project/FinalProjects/SalesManager/app/src/main/res/drawable/z_input_signup_box.xml" value="0.1" />
+        <entry key="..\:/1-Learn/1-Nam3/PhatTrienUngDungDiDong/1-Project/FinalProjects/SalesManager/app/src/main/res/drawable/z_menu_item_img.xml" value="0.1" />
+        <entry key="..\:/1-Learn/1-Nam3/PhatTrienUngDungDiDong/1-Project/FinalProjects/SalesManager/app/src/main/res/layout/a_blankpage.xml" value="0.23802083333333332" />
+        <entry key="..\:/1-Learn/1-Nam3/PhatTrienUngDungDiDong/1-Project/FinalProjects/SalesManager/app/src/main/res/layout/acc_info_fragment.xml" value="0.264" />
+        <entry key="..\:/1-Learn/1-Nam3/PhatTrienUngDungDiDong/1-Project/FinalProjects/SalesManager/app/src/main/res/layout/account_admin_fragment.xml" value="0.2421875" />
+        <entry key="..\:/1-Learn/1-Nam3/PhatTrienUngDungDiDong/1-Project/FinalProjects/SalesManager/app/src/main/res/layout/account_normal_fragment.xml" value="0.2421875" />
+        <entry key="..\:/1-Learn/1-Nam3/PhatTrienUngDungDiDong/1-Project/FinalProjects/SalesManager/app/src/main/res/layout/activity_main.xml" value="0.228125" />
+        <entry key="..\:/1-Learn/1-Nam3/PhatTrienUngDungDiDong/1-Project/FinalProjects/SalesManager/app/src/main/res/layout/admin_menu_fragment.xml" value="0.264" />
+        <entry key="..\:/1-Learn/1-Nam3/PhatTrienUngDungDiDong/1-Project/FinalProjects/SalesManager/app/src/main/res/layout/cart_empty_fragment.xml" value="0.2" />
+        <entry key="..\:/1-Learn/1-Nam3/PhatTrienUngDungDiDong/1-Project/FinalProjects/SalesManager/app/src/main/res/layout/cart_fragment.xml" value="0.2046875" />
+        <entry key="..\:/1-Learn/1-Nam3/PhatTrienUngDungDiDong/1-Project/FinalProjects/SalesManager/app/src/main/res/layout/cart_item.xml" value="0.4" />
+        <entry key="..\:/1-Learn/1-Nam3/PhatTrienUngDungDiDong/1-Project/FinalProjects/SalesManager/app/src/main/res/layout/cart_item_card.xml" value="0.4" />
+        <entry key="..\:/1-Learn/1-Nam3/PhatTrienUngDungDiDong/1-Project/FinalProjects/SalesManager/app/src/main/res/layout/cart_pay_alert.xml" value="0.4" />
+        <entry key="..\:/1-Learn/1-Nam3/PhatTrienUngDungDiDong/1-Project/FinalProjects/SalesManager/app/src/main/res/layout/fd_card.xml" value="0.4" />
+        <entry key="..\:/1-Learn/1-Nam3/PhatTrienUngDungDiDong/1-Project/FinalProjects/SalesManager/app/src/main/res/layout/fd_item.xml" value="0.23802083333333332" />
+        <entry key="..\:/1-Learn/1-Nam3/PhatTrienUngDungDiDong/1-Project/FinalProjects/SalesManager/app/src/main/res/layout/fd_listview.xml" value="0.2421875" />
+        <entry key="..\:/1-Learn/1-Nam3/PhatTrienUngDungDiDong/1-Project/FinalProjects/SalesManager/app/src/main/res/layout/fd_menu_fragment.xml" value="0.1171875" />
+        <entry key="..\:/1-Learn/1-Nam3/PhatTrienUngDungDiDong/1-Project/FinalProjects/SalesManager/app/src/main/res/layout/fd_row_layout.xml" value="0.264" />
+        <entry key="..\:/1-Learn/1-Nam3/PhatTrienUngDungDiDong/1-Project/FinalProjects/SalesManager/app/src/main/res/layout/history_fragment.xml" value="0.2046875" />
+        <entry key="..\:/1-Learn/1-Nam3/PhatTrienUngDungDiDong/1-Project/FinalProjects/SalesManager/app/src/main/res/layout/history_item_card.xml" value="0.264" />
+        <entry key="..\:/1-Learn/1-Nam3/PhatTrienUngDungDiDong/1-Project/FinalProjects/SalesManager/app/src/main/res/layout/history_row_layout.xml" value="0.14074074074074075" />
+        <entry key="..\:/1-Learn/1-Nam3/PhatTrienUngDungDiDong/1-Project/FinalProjects/SalesManager/app/src/main/res/layout/item_grid_layout.xml" value="0.2421875" />
+        <entry key="..\:/1-Learn/1-Nam3/PhatTrienUngDungDiDong/1-Project/FinalProjects/SalesManager/app/src/main/res/layout/item_row_layout.xml" value="0.2421875" />
+        <entry key="..\:/1-Learn/1-Nam3/PhatTrienUngDungDiDong/1-Project/FinalProjects/SalesManager/app/src/main/res/layout/login_fragment.xml" value="0.264" />
+        <entry key="..\:/1-Learn/1-Nam3/PhatTrienUngDungDiDong/1-Project/FinalProjects/SalesManager/app/src/main/res/layout/logout_alert.xml" value="0.20969202898550723" />
+        <entry key="..\:/1-Learn/1-Nam3/PhatTrienUngDungDiDong/1-Project/FinalProjects/SalesManager/app/src/main/res/layout/logout_fragment.xml" value="0.20969202898550723" />
+        <entry key="..\:/1-Learn/1-Nam3/PhatTrienUngDungDiDong/1-Project/FinalProjects/SalesManager/app/src/main/res/layout/menu_fragment.xml" value="0.4" />
+        <entry key="..\:/1-Learn/1-Nam3/PhatTrienUngDungDiDong/1-Project/FinalProjects/SalesManager/app/src/main/res/layout/menu_item_card.xml" value="0.264" />
+        <entry key="..\:/1-Learn/1-Nam3/PhatTrienUngDungDiDong/1-Project/FinalProjects/SalesManager/app/src/main/res/layout/pay_fragment.xml" value="0.2421875" />
+        <entry key="..\:/1-Learn/1-Nam3/PhatTrienUngDungDiDong/1-Project/FinalProjects/SalesManager/app/src/main/res/layout/signup_fragment.xml" value="0.264" />
+        <entry key="..\:/1-Learn/1-Nam3/PhatTrienUngDungDiDong/1-Project/FinalProjects/SalesManager/app/src/main/res/layout/test.xml" value="0.4" />
+        <entry key="..\:/1-Learn/1-Nam3/PhatTrienUngDungDiDong/1-Project/FinalProjects/SalesManager/app/src/main/res/menu/accountinfo.xml" value="0.2421875" />
+        <entry key="..\:/1-Learn/1-Nam3/PhatTrienUngDungDiDong/1-Project/FinalProjects/SalesManager/app/src/main/res/menu/admin_bottom.xml" value="0.264" />
+        <entry key="..\:/1-Learn/1-Nam3/PhatTrienUngDungDiDong/1-Project/FinalProjects/SalesManager/app/src/main/res/menu/admin_menu.xml" value="0.23802083333333332" />
+        <entry key="..\:/1-Learn/1-Nam3/PhatTrienUngDungDiDong/1-Project/FinalProjects/SalesManager/app/src/main/res/menu/navigationbottom.xml" value="0.264" />
+        <entry key="..\:/1-Learn/1-Nam3/PhatTrienUngDungDiDong/1-Project/FinalProjects/SalesManager/app/src/main/res/menu/navigationtop.xml" value="0.2421875" />
+        <entry key="..\:/Android_Studio_Lab/519H0341-519H0129-519H0359/SalesManager/app/src/main/res/layout/acc_info_fragment.xml" value="0.25" />
+        <entry key="..\:/Android_Studio_Lab/519H0341-519H0129-519H0359/SalesManager/app/src/main/res/layout/login_fragment.xml" value="0.1480978260869565" />
+        <entry key="..\:/Android_Studio_Lab/519H0341-519H0129-519H0359/SalesManager/app/src/main/res/layout/logout_alert.xml" value="0.1480978260869565" />
+        <entry key="..\:/Android_Studio_Lab/519H0341-519H0129-519H0359/SalesManager/app/src/main/res/layout/logout_fragment.xml" value="0.1480978260869565" />
+        <entry key="..\:/Android_Studio_Lab/519H0341-519H0129-519H0359/SalesManager/app/src/main/res/layout/signup_fragment.xml" value="0.1480978260869565" />
+        <entry key="..\:/Android_Studio_Lab/final/FinalProjects/SalesManager/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Android_Studio_Lab/final/FinalProjects/SalesManager/app/src/main/res/drawable/account_24.xml" value="0.1" />
+        <entry key="..\:/Android_Studio_Lab/final/FinalProjects/SalesManager/app/src/main/res/drawable/cart_24.xml" value="0.1" />
+        <entry key="..\:/Android_Studio_Lab/final/FinalProjects/SalesManager/app/src/main/res/drawable/drink_24.xml" value="0.1" />
+        <entry key="..\:/Android_Studio_Lab/final/FinalProjects/SalesManager/app/src/main/res/drawable/food_24.xml" value="0.1" />
+        <entry key="..\:/Android_Studio_Lab/final/FinalProjects/SalesManager/app/src/main/res/drawable/food_drink_24.xml" value="0.1" />
+        <entry key="..\:/Android_Studio_Lab/final/FinalProjects/SalesManager/app/src/main/res/drawable/history_24.xml" value="0.1" />
+        <entry key="..\:/Android_Studio_Lab/final/FinalProjects/SalesManager/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Android_Studio_Lab/final/FinalProjects/SalesManager/app/src/main/res/drawable/item_default_36.xml" value="0.1" />
+        <entry key="..\:/Android_Studio_Lab/final/FinalProjects/SalesManager/app/src/main/res/drawable/logout_24.xml" value="0.1" />
+        <entry key="..\:/Android_Studio_Lab/final/FinalProjects/SalesManager/app/src/main/res/drawable/menu_24.xml" value="0.1" />
+        <entry key="..\:/Android_Studio_Lab/final/FinalProjects/SalesManager/app/src/main/res/drawable/people_24.xml" value="0.1" />
+        <entry key="..\:/Android_Studio_Lab/final/FinalProjects/SalesManager/app/src/main/res/drawable/z_cart_frame_5dp.xml" value="0.1" />
+        <entry key="..\:/Android_Studio_Lab/final/FinalProjects/SalesManager/app/src/main/res/drawable/z_cart_item_5dp.xml" value="0.1" />
+        <entry key="..\:/Android_Studio_Lab/final/FinalProjects/SalesManager/app/src/main/res/drawable/z_gradient_corner_5dp.xml" value="0.1" />
+        <entry key="..\:/Android_Studio_Lab/final/FinalProjects/SalesManager/app/src/main/res/drawable/z_input_signup_box.xml" value="0.1" />
+        <entry key="..\:/Android_Studio_Lab/final/FinalProjects/SalesManager/app/src/main/res/drawable/z_menu_item_img.xml" value="0.1" />
+        <entry key="..\:/Android_Studio_Lab/final/FinalProjects/SalesManager/app/src/main/res/font/aclonica.xml" value="0.18425925925925926" />
+        <entry key="..\:/Android_Studio_Lab/final/FinalProjects/SalesManager/app/src/main/res/font/allerta_stencil.xml" value="0.18425925925925926" />
+        <entry key="..\:/Android_Studio_Lab/final/FinalProjects/SalesManager/app/src/main/res/font/almendra_sc.xml" value="0.14010416666666667" />
+        <entry key="..\:/Android_Studio_Lab/final/FinalProjects/SalesManager/app/src/main/res/font/arizonia.xml" value="0.14010416666666667" />
+        <entry key="..\:/Android_Studio_Lab/final/FinalProjects/SalesManager/app/src/main/res/font/berkshire_swash.xml" value="0.14010416666666667" />
+        <entry key="..\:/Android_Studio_Lab/final/FinalProjects/SalesManager/app/src/main/res/font/bungee_shade.xml" value="0.14010416666666667" />
+        <entry key="..\:/Android_Studio_Lab/final/FinalProjects/SalesManager/app/src/main/res/font/convergence.xml" value="0.14010416666666667" />
+        <entry key="..\:/Android_Studio_Lab/final/FinalProjects/SalesManager/app/src/main/res/font/faster_one.xml" value="0.14010416666666667" />
+        <entry key="..\:/Android_Studio_Lab/final/FinalProjects/SalesManager/app/src/main/res/font/fredericka_the_great.xml" value="0.14010416666666667" />
+        <entry key="..\:/Android_Studio_Lab/final/FinalProjects/SalesManager/app/src/main/res/font/orbitron_black.xml" value="0.14010416666666667" />
+        <entry key="..\:/Android_Studio_Lab/final/FinalProjects/SalesManager/app/src/main/res/font/tangerine.xml" value="0.14010416666666667" />
+        <entry key="..\:/Android_Studio_Lab/final/FinalProjects/SalesManager/app/src/main/res/font/vampiro_one.xml" value="0.14010416666666667" />
+        <entry key="..\:/Android_Studio_Lab/final/FinalProjects/SalesManager/app/src/main/res/layout/a_blankpage.xml" value="0.12158054711246201" />
+        <entry key="..\:/Android_Studio_Lab/final/FinalProjects/SalesManager/app/src/main/res/layout/acc_info_fragment.xml" value="0.264" />
+        <entry key="..\:/Android_Studio_Lab/final/FinalProjects/SalesManager/app/src/main/res/layout/cart_fragment.xml" value="0.264" />
+        <entry key="..\:/Android_Studio_Lab/final/FinalProjects/SalesManager/app/src/main/res/layout/cart_item_card.xml" value="0.264" />
+        <entry key="..\:/Android_Studio_Lab/final/FinalProjects/SalesManager/app/src/main/res/layout/cart_pay_alert.xml" value="0.2" />
+        <entry key="..\:/Android_Studio_Lab/final/FinalProjects/SalesManager/app/src/main/res/layout/history_fragment.xml" value="0.2" />
+        <entry key="..\:/Android_Studio_Lab/final/FinalProjects/SalesManager/app/src/main/res/layout/history_item_card.xml" value="0.12158054711246201" />
+        <entry key="..\:/Android_Studio_Lab/final/FinalProjects/SalesManager/app/src/main/res/layout/login_fragment.xml" value="0.16666666666666666" />
+        <entry key="..\:/Android_Studio_Lab/final/FinalProjects/SalesManager/app/src/main/res/layout/logout_alert.xml" value="0.1480978260869565" />
+        <entry key="..\:/Android_Studio_Lab/final/FinalProjects/SalesManager/app/src/main/res/layout/logout_fragment.xml" value="0.4" />
+        <entry key="..\:/Android_Studio_Lab/final/FinalProjects/SalesManager/app/src/main/res/layout/menu_fragment.xml" value="0.4" />
+        <entry key="..\:/Android_Studio_Lab/final/FinalProjects/SalesManager/app/src/main/res/layout/menu_item_card.xml" value="0.1480978260869565" />
+        <entry key="..\:/Android_Studio_Lab/final/FinalProjects/SalesManager/app/src/main/res/layout/signup_fragment.xml" value="0.2" />
+        <entry key="..\:/Android_Studio_Lab/final/FinalProjects/SalesManager/app/src/main/res/menu/admin_bottom.xml" value="0.2" />
+        <entry key="..\:/Android_Studio_Lab/final/FinalProjects/SalesManager/app/src/main/res/menu/navigationbottom.xml" value="0.264" />
+        <entry key="..\:/Android_Studio_Lab/final/FinalProjects/SalesManager/app/src/main/res/menu/navigationtop.xml" value="0.12685185185185185" />
+        <entry key="..\:/Android_Studio_Lab/final/FinalProjects/SalesManager/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1735" />
+        <entry key="..\:/Android_Studio_Lab/final/FinalProjects/SalesManager/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+        <entry key="..\:/Users/Son Tung/AndroidStudioProjects/SalesManager/app/src/main/res/layout/login_fragment.xml" value="0.21784420289855072" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.42462845010615713" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

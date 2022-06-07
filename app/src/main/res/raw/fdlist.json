@@ -1,0 +1,33 @@
+[
+  {
+    "name": "Cơm gà xói mỡ",
+    "price": 35000,
+    "type": "f"
+  },
+  {
+    "name": "Sườn xào chua ngọt",
+    "price": 70000,
+    "type": "f"
+  },
+  {
+    "name": "Cocacola",
+    "price": 15000,
+    "type": "d"
+  },
+  {
+    "name": "Cơm gà xói mỡ",
+    "price": 35000,
+    "type": "f"
+  },
+  {
+    "name": "Sườn xào chua ngọt",
+    "price": 70000,
+    "type": "f"
+  },
+  {
+    "name": "Cocacola",
+    "price": 15000,
+    "type": "d"
+  }
+]
+

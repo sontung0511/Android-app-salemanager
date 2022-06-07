@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Sales Manager</string>
+    <string name="nulluser">User cannot null.</string>
+    <string name="nullpassword">Password cannot null</string>
+</resources>

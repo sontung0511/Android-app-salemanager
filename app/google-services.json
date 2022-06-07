@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "197135320240",
+    "project_id": "sales-manager-group-12",
+    "storage_bucket": "sales-manager-group-12.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:197135320240:android:600918d67a22c247936775",
+        "android_client_info": {
+          "package_name": "tdtu.finalproject.salesmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "197135320240-ggr15a98v3t5tcba8t2fkdjv4ovdsl7p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxWdwpoiQQ-ek9etpl3mIZrX3jI4bIFbk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "197135320240-ggr15a98v3t5tcba8t2fkdjv4ovdsl7p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

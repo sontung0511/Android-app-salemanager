@@ -1,0 +1,22 @@
+[
+  {
+    "user": "admin",
+    "bill": [
+      {
+        "itemlist": [
+          {
+            "item_name": "Cơm gà xói mỡ",
+            "quantity": "1",
+            "priceperone": "35000"
+          },
+          {
+            "item_name": "Sườn xào chua ngọt",
+            "quantity": "1",
+            "priceperone": "70000"
+          }
+        ],
+        "pay_date": "Sun May 15 11:50:06 GMT+07:00 2022"
+      }
+    ]
+  }
+]

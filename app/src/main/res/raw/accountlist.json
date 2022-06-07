@@ -1,0 +1,11 @@
+[
+  {
+    "username": "Admin",
+    "password": "admin123",
+    "nickname" : "Admin",
+    "country": "Vietnam",
+    "birth": "01-01-2001",
+    "sex": "m",
+    "lastUpdated": "Sun May 15 11:50:06 GMT+07:00 2022"
+  }
+]

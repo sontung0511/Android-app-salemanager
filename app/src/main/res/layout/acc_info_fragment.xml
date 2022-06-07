@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Menu.Menu_Fragment">
+
+    <FrameLayout
+        android:id="@+id/acc_info_top"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:background="@color/black"
+        android:foreground="?attr/selectableItemBackground"
+        app:itemBackground="@color/bgTopNavigation"
+        app:itemIconTint="@android:color/black"
+        app:itemTextColor="@android:color/black"
+        app:layout_constraintBottom_toTopOf="@+id/info_frame"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#900B0B0B"
+            android:padding="5dp">
+
+            <Button
+                android:id="@+id/btnProfile"
+                android:layout_width="165dp"
+                android:layout_height="55dp"
+                android:gravity="center"
+                android:padding="0dp"
+                android:text="PROFILE"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/btnChangePass"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/btnChangePass"
+                android:layout_width="165dp"
+                android:layout_height="55dp"
+                android:gravity="center"
+                android:padding="0dp"
+                android:text="CHANGE\nPASSWORD"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/btnProfile"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/info_frame"
+        android:layout_width="match_parent"
+        android:layout_height="393dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:background="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#900B0B0B"
+            android:padding="5dp">
+
+            <TableLayout
+                android:id="@+id/tableLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toTopOf="@+id/btnSaveProfile"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="5dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/info_1"
+                        android:layout_width="100dp"
+                        android:layout_height="48dp"
+                        android:gravity="right|center_vertical"
+                        android:paddingEnd="5dp"
+                        android:text="Nickname:"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/editableNickname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:textColor="@color/white"
+                        android:textColorHint="#80FFFFFF"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/info_2"
+                        android:layout_width="100dp"
+                        android:layout_height="48dp"
+                        android:gravity="right|center_vertical"
+                        android:paddingEnd="5dp"
+                        android:text="Username:"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/notEditable"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:textColorHint="#80FFFFFF"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        tools:ignore="SpeakableTextPresentCheck" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/info_3"
+                        android:layout_width="100dp"
+                        android:layout_height="48dp"
+                        android:gravity="right|center_vertical"
+                        android:paddingEnd="5dp"
+                        android:text="Sex:"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <RadioGroup
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <RadioButton
+                            android:id="@+id/btnMale"
+                            android:layout_width="78dp"
+                            android:layout_height="wrap_content"
+                            android:checked="true"
+                            android:text="Male"
+                            android:textColor="#FFFFFF" />
+
+                        <RadioButton
+                            android:id="@+id/btnFemale"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Female"
+                            android:textColor="#FFFFFF" />
+
+                    </RadioGroup>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/info_5"
+                        android:layout_width="100dp"
+                        android:layout_height="48dp"
+                        android:gravity="right|center_vertical"
+                        android:paddingEnd="5dp"
+                        android:text="Country:"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/editableCountry"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:enabled="false"
+                        android:hint="Country's Name"
+                        android:inputType="textPersonName"
+                        android:minHeight="48dp"
+                        android:textColor="#FFFFFF"
+                        android:textColorHint="#80FFFFFF"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/info_6"
+                        android:layout_width="111dp"
+                        android:layout_height="48dp"
+                        android:gravity="right|center_vertical"
+                        android:paddingEnd="5dp"
+                        android:text="Last Updated:"
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/notEditable2"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:enabled="false"
+                        android:hint="Time Updated"
+                        android:inputType="textPersonName"
+                        android:maxLength="20"
+                        android:minHeight="48dp"
+                        android:textColor="#80FFFFFF"
+                        android:textSize="14sp" />
+                </TableRow>
+            </TableLayout>
+
+            <ProgressBar
+                android:id="@+id/loading_progress"
+                style="@android:style/Widget.ProgressBar.Inverse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/btnSaveProfile"
+                android:layout_width="96dp"
+                android:layout_height="48dp"
+                android:text="Save"
+                android:textColor="#FFFFFF"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/btnEditProfile"
+                app:layout_constraintTop_toBottomOf="@+id/tableLayout2" />
+
+            <Button
+                android:id="@+id/btnEditProfile"
+                android:layout_width="96dp"
+                android:layout_height="48dp"
+                android:text="Edit"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/btnSaveProfile"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tableLayout2" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/pass_frame"
+        android:layout_width="match_parent"
+        android:layout_height="393dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:background="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/acc_info_top">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#900B0B0B"
+            android:padding="5dp">
+
+            <TableLayout
+                android:id="@+id/tableLayout4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toTopOf="@+id/btnSaveNewPass"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp">
+
+                    <TextView
+                        android:id="@+id/pass_1"
+                        android:layout_width="111dp"
+                        android:layout_height="48dp"
+                        android:gravity="right|center_vertical"
+                        android:text="Enter Old Pass:"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/edit_oldPass"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_marginStart="5dp"
+                        android:backgroundTint="#FFFFFF"
+                        android:ems="10"
+                        android:inputType="textPassword"
+                        android:maxLength="16"
+                        android:paddingStart="5dp"
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        tools:ignore="SpeakableTextPresentCheck" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp">
+
+                    <TextView
+                        android:id="@+id/pass_2"
+                        android:layout_width="111dp"
+                        android:layout_height="48dp"
+                        android:gravity="right|center_vertical"
+                        android:text="Enter New Pass:"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/edit_newPass"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_marginStart="5dp"
+                        android:backgroundTint="#FFFFFF"
+                        android:ems="10"
+                        android:inputType="textPassword"
+                        android:maxLength="16"
+                        android:paddingStart="5dp"
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        tools:ignore="SpeakableTextPresentCheck" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp">
+
+                    <TextView
+                        android:id="@+id/pass_3"
+                        android:layout_width="111dp"
+                        android:layout_height="48dp"
+                        android:gravity="right|center_vertical"
+                        android:text="Re-enter Pass:"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/edit_reEnter"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_marginStart="5dp"
+                        android:backgroundTint="#FFFFFF"
+                        android:ems="10"
+                        android:inputType="textPassword"
+                        android:maxLength="16"
+                        android:paddingStart="5dp"
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        tools:ignore="SpeakableTextPresentCheck" />
+                </TableRow>
+
+            </TableLayout>
+
+            <Button
+                android:id="@+id/btnSaveNewPass"
+                android:layout_width="96dp"
+                android:layout_height="48dp"
+                android:text="Save"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/btnCancelChange"
+                app:layout_constraintTop_toBottomOf="@+id/tableLayout4" />
+
+            <Button
+                android:id="@+id/btnCancelChange"
+                android:layout_width="96dp"
+                android:layout_height="48dp"
+                android:text="Cancel"
+                app:layout_constraintEnd_toStartOf="@+id/btnSaveNewPass"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tableLayout4" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/menubot"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:background="?android:attr/windowBackground"
+        android:foreground="?attr/selectableItemBackground"
+        app:itemBackground="@color/black"
+        app:itemIconTint="@android:color/white"
+        app:itemTextColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:menu="@menu/navigationbottom" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="164dp"
+        android:layout_height="124dp"
+        android:src="@mipmap/img"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/menubot" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
